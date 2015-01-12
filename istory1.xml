@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" stand-alone="no" ?>
+<iStory id="1">
+    <meta>
+        <tags>sci-fi,aliens</tags>
+        <title>Signs</title>
+        <author>M. Night Shamalayan</author>
+        <created>10-13-2014</created>
+        <modified>1-11-2015</modified>
+    </meta>
+    <pages>
+        <page id="1">
+            <title>The Beginning</title>
+            <prompt>
+                <![CDATA[
+                    <p>He was a priest with no religion after his wife's death.</p>
+                    <p>He had three kids. One was a little girl who left half-drunken glasses of water around the room. Another was a teenage baseball star, who was now a dropout. Finally, there was the asthmatic boy. Together, they were a family, broken but functional.</p>
+                    <p>One day, his daughter told him of an alien in the pantry. What should the priest dad do?</p>
+                ]]>
+            </prompt>
+            <links>
+                <link idref="2">Pray it away</link>
+                <link idref="3">Investigate the pantry</link>
+                <link idref="4">Run out of the house screaming</link>
+            </links>
+        </page>
+        <page id="2">
+            <title>The Prayer</title>
+            <prompt>
+                <![CDATA[
+                    <p>You bow down in prayer. You haven't prayed since you dropped out of the priesthood. You bow your head.</p>
+                    <p>Then you feel a strange feeling on the back of your neck. What should you do?</p>
+                ]]>
+            </prompt>
+            <links>
+                <link idref="3">Investigate the pantry</link>
+                <link idref="4">Run out of the house screaming</link>
+            </links>
+        </page>
+        <page id="3">
+            <title>The Investigation</title>
+            <prompt>
+                <![CDATA[
+                    <p>As you approach the pantry, you freak out and run out the house screaming.</p>
+                ]]>
+            </prompt>
+            <links>
+                <link idref="4">Keep running</link>
+            </links>
+        </page>
+        <page id="4">
+            <title>Eaten!</title>
+            <prompt>
+                <![CDATA[
+                    <p>The alien <em>ate</em> you!</p>
+                ]]>
+            </prompt>
+            <links>
+                <link idref="2">Pray it away</link>
+                <link idref="3">Investigate the pantry</link>
+                <link idref="4">Run out of the house screaming</link>
+            </links>
+        </page>
+    </pages>
+</iStory>
